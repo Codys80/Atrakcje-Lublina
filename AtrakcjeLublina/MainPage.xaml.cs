@@ -2,24 +2,27 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        int likes = 0;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        //private void OnCounterClicked(object sender, EventArgs e)
-        //{
-        //    count++;
+        private void IncrementLikes(object sender, EventArgs e)
+        {
+            likes++;
+            LblLikeCounter.Text = $"Polubień: {likes}";
 
-        //    if (count == 1)
-        //        CounterBtn.Text = $"Clicked {count} time";
-        //    else
-        //        CounterBtn.Text = $"Clicked {count} times";
-
-        //    SemanticScreenReader.Announce(CounterBtn.Text);
-        //}
+        }
+        private void DecrementLikes(object sender, EventArgs e)
+        {
+            if (likes == 0){
+                return;
+            }
+            likes--;
+            LblLikeCounter.Text = $"Polubień: {likes}";
+        }
     }
 
 }
