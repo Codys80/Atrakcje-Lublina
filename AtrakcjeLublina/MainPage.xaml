@@ -8,6 +8,11 @@
             Padding="30,0"
             Spacing="25">
 
+			<Label 
+				x:Name="LblLikeCounter"
+			    Text="Polubień: 0"
+				HorizontalTextAlignment="End"
+		    />
         </VerticalStackLayout>
     </ScrollView>
 
