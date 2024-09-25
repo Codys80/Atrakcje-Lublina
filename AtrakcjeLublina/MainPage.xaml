@@ -7,7 +7,15 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+           
+            <Image
+                Source="getimage.png"
+                Aspect="AspectFill"
+                />
 
+
+      
+            
         </VerticalStackLayout>
     </ScrollView>
 
