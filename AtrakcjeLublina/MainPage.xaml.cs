@@ -2,7 +2,9 @@
 {
     public partial class MainPage : ContentPage
     {
+
         int likes = 0;
+
 
         public MainPage()
         {
