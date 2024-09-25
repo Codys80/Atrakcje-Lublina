@@ -13,11 +13,15 @@
                 Aspect="AspectFill"
                 />
 
-			<Label 
-		        x:Name="LblLikeCounter"
-			    Text="Polubień: 0"
-			    HorizontalTextAlignment="End"
-		        />
+	    <Label 
+		x:Name="LblLikeCounter"
+		Text="Polubień: 0"
+		HorizontalTextAlignment="End"
+	    />
+
+	    <Label 
+		Text="Największe atrakcje Lublina Lublin zachwyca siedmiowiekową historią opowiadaną przez muzea, zabytki, tradycyjne smaki oraz legendy ukryte w uliczkach, zaułkach i murach kamienic. Doświadczanie miasta warto rozpocząć od spaceru po Starym Mieście i podążać szlakiem historycznego bogactwa, wielokulturowych korzeni, a także wciąż żywych tradycji okresu jagiellońskiego i diaspory żydowskiej. Trudno wskazać te najbardziej zachwycające miejsca, podpowiadamy więc gdzie na pewno trzeba być, aby choć trochę poznać Miasto Inspiracji."
+		HorizontalTextAlignment="Center" />
 
             <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
                 <Button x:Name="BtnLike" Text="Lubię" Clicked="IncrementLikes"/>
