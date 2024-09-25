@@ -8,6 +8,12 @@
             Padding="30,0"
             Spacing="25">
 
+
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Button x:Name="BtnLike" Text="Lubię" Clicked="IncrementLikes"/>
+                <Button x:Name="BtnDislike" Text="Nie lubię" Clicked="DecrementLikes"/>
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 
