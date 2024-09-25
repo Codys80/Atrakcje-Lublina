@@ -7,6 +7,10 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+
+            <Label Text="Spacer po Placu Litewskim" FontSize="28" HorizontalTextAlignment="Center"/>
+            
+
            
             <Image
                 Source="getimage.png"
@@ -28,6 +32,7 @@
                 <Button x:Name="BtnDislike" Text="Nie lubię" Clicked="DecrementLikes"/>
             </HorizontalStackLayout>
         
+
         </VerticalStackLayout>
     </ScrollView>
 
