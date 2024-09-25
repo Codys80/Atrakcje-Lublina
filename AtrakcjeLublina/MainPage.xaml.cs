@@ -12,7 +12,7 @@
         private void IncrementLikes(object sender, EventArgs e)
         {
             likes++;
-                BtnLike.Text = $"Polubień: {likes}";
+            LblLikeCounter.Text = $"Polubień: {likes}";
 
         }
         private void DecrementLikes(object sender, EventArgs e)
@@ -21,7 +21,7 @@
                 return;
             }
             likes--;
-            BtnLike.Text = $"Polubień: {likes}";
+            LblLikeCounter.Text = $"Polubień: {likes}";
         }
     }
 
