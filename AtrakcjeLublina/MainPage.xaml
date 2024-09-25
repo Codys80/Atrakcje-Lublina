@@ -7,17 +7,8 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-
-			      <Label 
-				      x:Name="LblLikeCounter"
-			        Text="Polubień: 0"
-				      HorizontalTextAlignment="End"
-		        />
-          
-            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
-                <Button x:Name="BtnLike" Text="Lubię" Clicked="IncrementLikes"/>
-                <Button x:Name="BtnDislike" Text="Nie lubię" Clicked="DecrementLikes"/>
-            </HorizontalStackLayout>
+            <Label Text="Spacer po Placu Litewskim" FontSize="28"/>
+            
         </VerticalStackLayout>
     </ScrollView>
 
