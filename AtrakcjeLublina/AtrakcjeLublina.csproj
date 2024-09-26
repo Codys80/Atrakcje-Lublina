@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\getimage.png" />
+	  <None Remove="Resources\Images\getimage.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
