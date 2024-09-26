@@ -10,25 +10,6 @@
         {
             InitializeComponent();
 
-            List<Attraction> attractions = new List<Attraction>
-            {
-                new Attraction
-                {
-                    Name = "Zamek Lubelski",
-                    Image = "getimage1.jpg"
-                },
-                new Attraction
-                {
-                    Name = "Stare Miasto",
-                    Image = "getimage2.jpg"
-                },
-                new Attraction
-                {
-                    Name = "Czarcia Łapa",
-                    Image = "getimage3.jpg"
-                }
-            };
-
         }
 
         private void IncrementLikes(object sender, EventArgs e)
@@ -46,11 +27,4 @@
             LblLikeCounter.Text = $"Polubień: {likes}";
         }
     }
-
-    public class Attraction
-    {
-        public string Name { get; set; }
-        public string Image { get; set; }
-    }
-
 }
